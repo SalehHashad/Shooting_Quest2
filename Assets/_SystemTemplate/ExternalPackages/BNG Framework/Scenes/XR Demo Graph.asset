@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8845546849471174255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99766d3dad6c36e40b408290706f07c8, type: 3}
+  m_Name: 9 Nov 2021 6 2 :2s Visibility
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 360, y: -136}
+  ports:
+    keys:
+    - Previous
+    - Next
+    - Recieve
+    - Send
+    values:
+    - _fieldName: Previous
+      _node: {fileID: -8845546849471174255}
+      _typeQualifiedName: Empty, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Next
+        node: {fileID: -1541647927811868978}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Next
+      _node: {fileID: -8845546849471174255}
+      _typeQualifiedName: Empty, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: -547848794339048954}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Recieve
+      _node: {fileID: -8845546849471174255}
+      _typeQualifiedName: Empty, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Send
+      _node: {fileID: -8845546849471174255}
+      _typeQualifiedName: Empty, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Help: 
+  Delay: 5
+  IsColorInput: 0
+  _: Below Settings are changed
+  TriggerTag: None
+  InputType: None
+  IsPreInputRequired: 0
+  IsPostInputRequired: 0
+  IsUnlocked: 0
+  IsValid: 1
+  Type: 9
+  IsDeleted: 0
+  Id: 9 Nov 2021 6 2 :2s
+  NodeParent: {fileID: 0}
+  Implementations:
+  - {fileID: 0}
+  Controller: {fileID: 0}
+  Graph: {fileID: 11400000}
+  IsSent: 0
+  IsVisible: 0
+  _isModified: 1
+--- !u!114 &-1541647927811868978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ea85080efd28449459df8c132be40, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 0, y: 0}
+  ports:
+    keys:
+    - Next
+    values:
+    - _fieldName: Next
+      _node: {fileID: -1541647927811868978}
+      _typeQualifiedName: Empty, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: -8845546849471174255}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _: Disabled
+  IsEnabled: 1
+--- !u!114 &-547848794339048954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99766d3dad6c36e40b408290706f07c8, type: 3}
+  m_Name: 10 Nov 2021 11 41 :49s Visibility
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 776, y: -136}
+  ports:
+    keys:
+    - Previous
+    - Next
+    - Recieve
+    - Send
+    values:
+    - _fieldName: Previous
+      _node: {fileID: -547848794339048954}
+      _typeQualifiedName: Empty, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Next
+        node: {fileID: -8845546849471174255}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Next
+      _node: {fileID: -547848794339048954}
+      _typeQualifiedName: Empty, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Recieve
+      _node: {fileID: -547848794339048954}
+      _typeQualifiedName: Empty, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Send
+      _node: {fileID: -547848794339048954}
+      _typeQualifiedName: Empty, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Help: 
+  Delay: 5
+  IsColorInput: 0
+  _: Below Settings are changed
+  TriggerTag: None
+  InputType: None
+  IsPreInputRequired: 0
+  IsPostInputRequired: 0
+  IsUnlocked: 0
+  IsValid: 1
+  Type: 9
+  IsDeleted: 0
+  Id: 10 Nov 2021 11 41 :49s
+  NodeParent: {fileID: 0}
+  Implementations:
+  - {fileID: 0}
+  Controller: {fileID: 0}
+  Graph: {fileID: 11400000}
+  IsSent: 0
+  IsVisible: 1
+  _isModified: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ca55b57adc544409e0c399c28fbfba, type: 3}
+  m_Name: XR Demo Graph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1541647927811868978}
+  - {fileID: -8845546849471174255}
+  - {fileID: -547848794339048954}
+  current:
+  - {fileID: -8845546849471174255}
+  IsSystemV1: 0
+  SearchQuery: a
+  SceneAssetName: 'XR Demo [XR Demo] '
+  ScenePath: Assets/BNG Framework/Scenes/XR Demo.unity
+  IsGraphAceneAssetSet: 1
