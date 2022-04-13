@@ -130,6 +130,8 @@ PlayerSettings:
   bundleVersion: 1.53
   preloadedAssets:
   - {fileID: 0}
+  - {fileID: 11400000, guid: c1de58e90dbc9814e95cd2bc9c219007, type: 2}
+  - {fileID: -1414025589143505192, guid: 735c389387412da4d8887fc82c5cf2d1, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -795,7 +797,7 @@ PlayerSettings:
   cloudProjectId: 39596c49-5126-4ce9-8e54-f1ac7c239e74
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: SystemV2Merged
   organizationId: arabtesting
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
